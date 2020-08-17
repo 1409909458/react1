@@ -4,14 +4,11 @@ import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
-);
+//2.创建虚拟DOM元素
+// const mydiv=<div id="mydiv" title="div aaa">这是一个div元素</div>
+// //xuan==
+// ReactDOM.render(mydiv,document.getElementById('app'))
 
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: https://bit.ly/CRA-PWA
-serviceWorker.unregister();
+
+
+
